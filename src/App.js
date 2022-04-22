@@ -46,7 +46,7 @@ function App() {
             mx="auto"
             textAlign={"left"}
           >
-            {episodes.slice(0,5).map((item) =>
+            {episodes.map((item) =>
               <Card sx={{ maxWidth: 345 }}>
                 <AspectRatio maxW='560px' ratio={1}>
                   <iframe
